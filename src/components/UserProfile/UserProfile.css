@@ -1,0 +1,15 @@
+.profile{
+   *width: 50em;
+}
+.profile__row{
+    width: 100%;
+    *display: flex;
+}
+.profile__row > div{
+    display: inline-block;
+    margin: .5em;
+    vertical-align: middle;
+}
+.profile__input{
+    font-size: 3em;
+}

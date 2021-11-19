@@ -1,0 +1,9 @@
+header{
+    padding: 1em;
+    text-align: right;
+}
+.h1{
+    font-size: 38px;
+    margin: 0.5em;
+    display: inline-block;
+}

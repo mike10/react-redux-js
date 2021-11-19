@@ -1,0 +1,40 @@
+.list-users__user{
+    border-radius: 10px;
+    background-color: #feffff;
+    padding: 1em;
+    cursor: pointer;
+    text-align: left;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+.list-users__user > div{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.list-users__user > div:nth-child(2){
+    margin-left: 1em;
+}
+
+.list-users__name,
+.list-users__id{
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #6b7280;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.list-users__id{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   transition-property: opacity;
+   transition-duration: 3s;
+ }
+.list-users__user:hover .list-users__id{
+    opacity: 1;
+    
+}
+.list-users__user:not(:hover) .list-users__id{
+    opacity: 0;
+}

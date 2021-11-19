@@ -1,0 +1,26 @@
+body *{
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: #808080;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+.App{
+  background-color: #e7e8e6;
+  display: inline-block;
+  padding: 2em;
+  padding-top: 0;
+}
+
+.dark{
+  background-color: #555;
+}
+.light{
+  background-color: #e7e8e6;
+}
